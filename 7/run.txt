@@ -1,0 +1,4 @@
+yacc -d calc.yacc
+lex calc.lex
+cc y.tab.c lex.yy.c
+$ a.out
